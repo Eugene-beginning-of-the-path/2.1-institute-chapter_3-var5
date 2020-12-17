@@ -8,7 +8,7 @@ public:
 
     double perimetr() override
     {
-        return m_side1 * 3; //m_side2-катет, m_side1-катет
+        return m_side1 * 3; 
     }
 
     double area() override

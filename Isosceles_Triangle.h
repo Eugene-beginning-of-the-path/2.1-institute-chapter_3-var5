@@ -13,7 +13,7 @@ public:
 
     double area() override
     {
-        return   m_side1 / 2 * m_side2 * sin(m_angle * 3.14 / 180); //m_side1, m_side2-катеты и m_angle-угол между ними
+        return   m_side1 / 2 * m_side2 * sin(m_angle * 3.14 / 180); 
     }
 
     ~Isosceles_Triangle() {}

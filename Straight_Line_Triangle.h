@@ -8,7 +8,7 @@ public:
 
     double perimetr() override
     {
-        return sqrt(pow(m_side1, 2) + pow(m_side2, 2)) + m_side1 + m_side2; //m_side2-катет, m_side1-катет
+        return sqrt(pow(m_side1, 2) + pow(m_side2, 2)) + m_side1 + m_side2; 
     }
 
     double area() override
